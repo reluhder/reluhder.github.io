@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register Here!</title>
+</head>
+<body>
+    <header>
+        <h1>Sign-up</h1>
+    </header>
+    <div>
+    <!--Use GET, not POST-->
+    <form method="GET">
+        First Name: <input type="text" name="firstname"><br><br> <!--Use Double Line Break so it looks nicer-->
+        Last Name: <input type="text" name="lastname"><br><br>
+        Email: <input type="email" name="email" required><br><br>
+        Password: <input type="password" name="password" min="6"><br><br>
+        Birthday: <input type="date" name="birthday"><br><br>
+        Gender: <p>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="Neither">Neither
+        </p>
+<hr>
+    <input type="submit" value="Register!">
+    <input type="reset">
+    </form>
+    </div>
+<br><br>
+</body>
+</html>
